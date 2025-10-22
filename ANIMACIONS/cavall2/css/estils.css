@@ -1,0 +1,13 @@
+#cavall{
+    position: relative; 
+    width: 67px; 
+    height: 54px; 
+    overflow: hidden; 
+    background: url(../img/sprite-horse.jpg) no-repeat 0px -76px; 
+    animation: run-horse .5s steps(12) infinite; /* 12 frames, 12 pasos */ 
+}			
+    
+@keyframes run-horse { 
+    0% { background-position: 0px 0;} 
+    100% { background-position: -804px 0; } 
+}		
